@@ -1,24 +1,23 @@
-# README
+SasMiniApp
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### installing
 
-Things you may want to cover:
+to open on your local:
 
-* Ruby version
+```
+git clone
+bundle install
+use ruby 2.6.3
+```
 
-* System dependencies
+## running the tests
 
-* Configuration
+run rspec to run test suite
 
-* Database creation
+## built in
 
-* Database initialization
+* [Rails](http://rubyonrails.org/) - The web framework used
+* [jQuery](https://api.jquery.com/) - The JavaScript library used
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## to-dos   
+create show page for each clue/answer, as currently the jquery displays all answers onClick
