@@ -3,8 +3,12 @@ class CluesController < ApplicationController
   require 'json'
 
   def index
-    url = "http://jservice.io/api/clues/?category=25"
-    response = RestClient.get(url)
+    get_response
+  end
+
+  def get_response
+    base_url = "http://jservice.io/api/"
+    response = RestClient.get(base_url + "clues/?category=25" )
     JSON.parse(response)
   end
 end
