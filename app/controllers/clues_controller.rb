@@ -3,7 +3,7 @@ class CluesController < ApplicationController
   require 'json'
 
   def index
-    get_response
+    @clues = get_response
   end
 
   def get_response
